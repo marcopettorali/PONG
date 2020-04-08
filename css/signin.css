@@ -1,0 +1,18 @@
+#container{
+	margin-top:15px;
+}
+
+#container p.input{
+	left:25%;
+}
+
+#container input{
+	width:400px;
+
+}
+
+.invalid{
+	background-color: red;
+	
+	color: white;
+}

@@ -1,0 +1,17 @@
+.themeImage{
+	width:200px;
+	
+	margin: 30px auto;
+	margin-top: 0px;
+	display:block;
+
+	cursor:pointer;
+}
+
+#container p{
+	margin-bottom: 10px;
+}
+
+#currentTheme{
+	width:100%;
+}

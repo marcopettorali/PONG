@@ -1,0 +1,105 @@
+body{
+	background-color:#dadada;
+}
+
+#container{
+	width:500px;
+
+	position:relative;
+	padding: 50px 0px;
+	margin-left:-250px;
+	left:50%;
+	margin-top:15px;
+
+	background-color: #2d2d2d;
+
+	border-radius: 10px;
+
+}
+
+#container img#logo{
+
+	width:400px;
+
+	position:relative;
+	margin-left:-200px;
+	left:50%;
+
+}
+
+#container p.input{
+
+	width:150px;
+
+	position:relative;
+	margin-left:-75px;
+	left:25%;
+	
+	font-family: Arial;
+	font-size:11pt;
+	color: white;
+
+}
+
+#container button{
+	height:50px;
+	width:250px;
+
+	position:relative;
+	margin-left:-125px;
+	left:50%;
+	top:20px;
+
+	background-color: #529ecc;
+
+	border-color: #529ecc;	
+	border-width: 1px;
+	border-radius: 100px;
+
+	color: #fff;
+	text-align: center;
+	font-size:14pt;
+
+}
+
+#container #links{
+	width:100%;
+
+	position:relative;
+	top:35px;
+
+	text-align: center;
+
+}
+
+#links a{
+	color:white;
+	font-family: Arial;
+	font-size:12pt;
+	text-decoration: none;
+}
+
+#container div.loginError{
+	height:50px;
+	width:90%;
+
+	position:relative;
+	left:50%;
+	top:20px;
+	margin-left: -45%;
+	margin-top:0px;
+	margin-bottom:30px;
+
+	background-color: red;
+	border-radius: 10px
+
+	color: white;
+	font-family: Arial;
+	font-size:11pt;
+	text-align: center;
+}
+
+#container div.loginError p{
+	position:relative;
+	top:15px;
+}

@@ -1,0 +1,31 @@
+#container{
+	width:700px;
+
+	margin-left:-400px;
+	left:50%;
+}
+
+header{
+	height:100px;
+	
+	display:block;
+}
+
+img{
+	width:400px;
+}
+
+
+
+a{
+	text-decoration: underline;
+	font-size:12pt;
+}
+
+p{
+	text-align: justify;
+}
+
+h2{
+	margin-top:50px;
+}

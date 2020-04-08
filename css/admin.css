@@ -1,0 +1,42 @@
+#container{
+	width:1150px;
+	left:50%;
+	margin-left:-575px;
+}
+
+table{
+	width:100%;
+}
+
+table td.selection{
+	background-color: red;
+
+	color:white;
+	font-weight: bold;
+}
+
+table p{
+	margin:0px 2px;
+
+	cursor: pointer;
+}
+
+th{
+	background-color: #373d49;
+	color:white;
+}
+
+table, th, td{
+	border: 1px solid #373d49;
+	border-collapse: collapse;
+}
+
+input[type = "button"]{
+	height:50px;
+	margin:0px 10px;
+	margin-top: 10px;	
+	
+	border-radius:10px;
+
+	color:#373d49;
+}

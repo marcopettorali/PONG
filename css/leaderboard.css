@@ -1,0 +1,28 @@
+#container table{
+
+	width:300px;
+
+	position:relative;
+	margin-left:-150px;
+	left:50%;
+}
+
+table th{
+	font-size:14pt;
+}
+
+table, th, td{
+	border: 0px;
+	border-collapse: collapse;
+}
+
+table p{
+	margin:0px;
+}
+
+.select{
+
+	background-color: #373d49;	
+	
+	color:white;
+}

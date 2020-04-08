@@ -1,0 +1,134 @@
+div.paddle{
+
+	position: relative;
+	background-color: white;
+	float: left;
+
+}
+
+div#ball{
+
+	position: relative;
+	background-color: white;
+	float:left;
+}
+
+p.points{
+
+	height: 100px;
+	width: 100px;
+	color: white;
+	float:left;
+	z-index: 0;
+	font-family: Bit;
+	font-size: 72pt;
+	margin-left: -50px;
+	position:relative;
+	
+}
+
+div#playground{
+
+	margin:0 auto;
+
+	top:75px;
+	position: relative;
+
+	z-index: -1;
+
+}
+
+#divPoints{
+
+	visibility: hidden;
+	position: absolute;
+
+	left: 50%;
+
+	width:500px;
+
+}
+
+#player1Points{
+	right:30%;
+}
+
+#player2Points{
+	left:30%;
+
+}
+
+div.wall{
+	width:10px;
+	height:100%;
+
+	position:relative;
+	float:left;
+
+	background-color: #7c0000;
+	
+	visibility:hidden;
+}
+
+div#wall1{
+	margin-right:-10px
+}
+
+div#wall2{
+	left:100%;
+	margin-left:-10px;
+}
+
+#debug{
+	position:relative;
+	left:50%;
+	margin:0px;
+	padding:0px;
+}
+
+#debug p{
+	margin:0px;
+}
+
+.controller{
+	width:150px;
+	position:relative;
+	padding-top:0px;
+}
+
+#wasdController{
+	width:150px;
+
+	position:relative;
+	top:10%;
+	margin-left: -75px;
+	left:50%;
+}
+
+#arrowsController{
+	width:150px;
+
+	position:relative;
+	top:15%;
+	margin-left: -75px;
+	left:50%;
+}
+
+#buttonStart{
+
+	position:relative;
+	top:25%;
+	width:500px;
+	margin-left: -250px;
+	left:50%;
+	padding:0px;
+
+	background-color: white;
+	border-style: solid;
+	border-color: white;
+
+	text-align: center;
+	color: black;
+	font-family: Bit;
+	font-size:40pt;
+}

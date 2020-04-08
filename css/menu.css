@@ -1,0 +1,102 @@
+nav#sideNav{
+
+	height:100%;
+
+	position:fixed;
+	left: -340px;
+	top: 0px;	
+
+	background-color:#dadada;
+
+	text-align: center;
+
+	z-index: 2000;
+}
+
+#icon{
+
+	width:20px;
+	
+	position:relative;
+	left:89.3%;
+	margin-left:-10px;
+	margin-top:0px;
+	clear:left;
+	
+
+	color:white;
+	font-size:20pt;
+	font-family: Arial;
+
+	z-index: 3001;
+}
+
+.button:hover{
+
+	cursor:pointer;
+
+}
+
+img#logo{
+
+	width: 150px;
+
+	position:relative;
+	margin-left: -75px;
+	top:40px;
+	left: 50%;
+
+	float:left;
+	display: block;
+
+}
+
+#menuUnorderedList{
+
+	position: relative;
+	padding-left: 0px;
+
+	font-family: Arial;
+
+	list-style-type: none;
+	
+
+}
+
+li{
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color:#373d49;
+
+}
+
+a:visited{
+	color: #373d49 ;
+}
+
+a:hover{
+	color:white;
+}
+
+#profile{
+
+	margin-top: 50px;
+	color: #373d49 ;
+
+	font-family: Arial;
+
+}
+
+#profileImg{
+
+	width:100px;
+	height:100px;
+
+	border-radius: 50px;
+
+}
